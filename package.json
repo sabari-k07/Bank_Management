@@ -1,0 +1,14 @@
+{
+  "name": "bank-recruitment-management-system",
+  "version": "1.0.0",
+  "description": "Enterprise Bank Recruitment & Management System with React, Vite, Tailwind CSS, Express, and SQLite",
+  "private": true,
+  "scripts": {
+    "server:dev": "cd server && npm run dev",
+    "client:dev": "cd client && npm run dev",
+    "db:migrate": "cd server && npm run migrate",
+    "db:seed": "cd server && npm run seed",
+    "build": "cd client && npm run build"
+  }
+}
+

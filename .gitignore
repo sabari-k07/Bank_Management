@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Production Build Output
+client/dist/
+
+# Environment variables & local secrets
+.env
+.env.local
+server/.env
+
+# Database (optional - keep or ignore SQLite database file)
+# server/src/database/recruitment.db
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
