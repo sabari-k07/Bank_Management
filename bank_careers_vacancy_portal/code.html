@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"on-background":"#0b1c30","on-tertiary":"#ffffff","surface-container-highest":"#d3e4fe","surface-variant":"#d3e4fe","primary-container":"#1a365d","secondary-container":"#7db6ff","on-tertiary-fixed":"#271900","surface-container-high":"#dce9ff","surface-bright":"#f8f9ff","on-error":"#ffffff","error-container":"#ffdad6","on-primary-fixed-variant":"#2d476f","on-surface-variant":"#43474e","background":"#f8f9ff","inverse-on-surface":"#eaf1ff","surface-tint":"#455f88","on-tertiary-fixed-variant":"#5f4100","error":"#ba1a1a","on-secondary-fixed-variant":"#004881","primary-fixed":"#d6e3ff","secondary":"#1960a3","on-secondary-container":"#00477f","primary":"#002045","on-secondary-fixed":"#001c38","on-surface":"#0b1c30","inverse-primary":"#adc7f7","tertiary":"#2d1d00","tertiary-container":"#493100","surface-container":"#e5eeff","secondary-fixed":"#d3e4ff","surface":"#f8f9ff","on-tertiary-container":"#cb9524","on-secondary":"#ffffff","tertiary-fixed-dim":"#f8bc4b","on-primary":"#ffffff","surface-container-low":"#eff4ff","outline":"#74777f","on-primary-container":"#86a0cd","surface-dim":"#cbdbf5","surface-container-lowest":"#ffffff","outline-variant":"#c4c6cf","on-primary-fixed":"#001b3c","on-error-container":"#93000a","primary-fixed-dim":"#adc7f7","tertiary-fixed":"#ffdeaa","secondary-fixed-dim":"#a2c9ff","inverse-surface":"#213145"},"borderRadius":{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},"spacing":{"space-lg":"1.5rem","margin-mobile":"1rem","space-xl":"2.5rem","margin":"2rem","space-xs":"0.25rem","space-sm":"0.5rem","space-md":"1rem","gutter-mobile":"0.75rem","gutter":"1.5rem"},"fontFamily":{"headline-md":["Public Sans"],"headline-xl":["Public Sans"],"body-sm":["Public Sans"],"body-md":["Public Sans"],"headline-lg-mobile":["Public Sans"],"headline-xl-mobile":["Public Sans"],"label-md":["Public Sans"],"label-sm":["Public Sans"],"body-lg":["Public Sans"],"headline-lg":["Public Sans"],"headline-sm":["Public Sans"],"tabular-data":["Public Sans"]},"fontSize":{"headline-md":["20px",{"lineHeight":"26px","letterSpacing":"-0.005em","fontWeight":"600"}],"headline-xl":["36px",{"lineHeight":"44px","letterSpacing":"-0.02em","fontWeight":"700"}],"body-sm":["12px",{"lineHeight":"16px","letterSpacing":"0.01em","fontWeight":"400"}],"body-md":["14px",{"lineHeight":"20px","letterSpacing":"0","fontWeight":"400"}],"headline-lg-mobile":["22px",{"lineHeight":"28px","letterSpacing":"0","fontWeight":"600"}],"headline-xl-mobile":["28px",{"lineHeight":"36px","letterSpacing":"-0.01em","fontWeight":"700"}],"label-md":["13px",{"lineHeight":"18px","letterSpacing":"0.02em","fontWeight":"600"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.05em","fontWeight":"700"}],"body-lg":["16px",{"lineHeight":"24px","letterSpacing":"0","fontWeight":"400"}],"headline-lg":["28px",{"lineHeight":"36px","letterSpacing":"-0.01em","fontWeight":"700"}],"headline-sm":["16px",{"lineHeight":"22px","letterSpacing":"0","fontWeight":"600"}],"tabular-data":["14px",{"lineHeight":"20px","letterSpacing":"0","fontWeight":"500"}]}}}};</script></head><body class="bg-surface font-body-md text-on-surface antialiased min-h-screen flex flex-col"><header class="fixed top-0 left-0 w-full z-50 bg-surface-container-lowest/95 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="bg-primary text-on-primary px-margin py-space-xs"><div class="max-w-7xl mx-auto flex items-center justify-between font-label-sm text-label-sm"><div class="flex items-center gap-space-md"><span class="flex items-center gap-1.5 font-medium text-surface-container-high"><span class="material-symbols-outlined text-[14px]">verified</span>Official Statutory Recruitment System</span><span class="hidden md:inline-block text-on-primary-container">|</span><span class="hidden md:inline-block bg-primary-container text-on-primary px-space-sm py-0.5 rounded">Govt. &amp; Scheduled Banks Cadre</span></div><div class="flex items-center gap-space-md"><span class="flex items-center gap-1 text-surface-container-high"><span class="material-symbols-outlined text-[14px] text-tertiary-fixed-dim">lock</span>Argon2id &amp; SSL 256-bit Encrypted</span><span class="hidden sm:inline-block text-surface-container">Support: 1800-419-0102</span></div></div></div><div class="h-20 max-w-7xl mx-auto px-margin flex items-center justify-between"><div class="flex items-center gap-space-md"><img alt="National Banking Recruitment Portal Emblem" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ALJJyrBXPxNVsBiwkvb0pILHWtH4ttScD5lRMcEE6ZKnfxKQjMWTT8LmPR3VLEhcq__RPpf1vqOs20ATTPnD_AEq3TpsiFF1MPF3JqpXJlSYqtwHCPeQ0iZvobOvRS3uukI0sV3bws_UwtI2FwE9k-mUb24i4RXYtzLqdMoWuhqQLmLKNNeLBaOcTfqxXHCR2jcPC7PhgZfqXMNyy82VNSEEFiod-s60aHYaykyjqTaiXHLS"/><div class="flex flex-col justify-center"><div class="font-headline-sm text-headline-sm text-primary leading-tight font-bold tracking-tight">National Banking Recruitment Board</div><div class="font-label-sm text-label-sm text-on-surface-variant">Central Banking Personnel Services &amp; Regulatory Compliance Desk</div></div></div><div class="flex items-center gap-space-md"><button aria-label="Notifications" class="relative p-space-sm rounded-lg bg-surface-container text-on-surface hover:bg-surface-container-high hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-[20px]">notifications</span><span class="absolute -top-1 -right-1 bg-error text-on-error font-label-sm text-[10px] w-4 h-4 rounded-full flex items-center justify-center font-bold">3</span></button><div class="flex items-center gap-space-sm pl-space-sm"><div class="text-right hidden sm:block"><div class="font-label-md text-label-md text-on-surface font-semibold leading-tight">Admin Operations Desk</div><div class="font-body-sm text-body-sm text-on-surface-variant font-tabular-data">ID: NBRB-88301-A</div></div><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-2 ring-surface-container-high" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAvQmP1nsnMGIvjiq6bIoj2-u-Mvx_k9UsxW8T5T_vhMvEUqJLMpObgYczLhSXUkDXjtTe1uRJn-7WHFqJqpuXORkRYsoqv4iaJ62MszQjnlPw5gap5FddO1QE42F_wcA0_tsk8viHtlegFK3MYojpnF-77vlkOyfIm81148N24Xzd3jsaQ7Cm3stm8M4Z4ZEz9jTCpGARQTiUS1CP4rFjOlVIYCiiwpEMKr2einek"/></div></div></div><div class="bg-surface-container-low shadow-[0_1px_4px_rgba(0,0,0,0.02)]"><div class="max-w-7xl mx-auto px-margin"><nav class="flex items-center gap-space-xs overflow-x-auto py-space-xs" data-active-classes="bg-primary-container text-on-primary font-semibold rounded-lg"><a class="font-label-md text-label-md bg-primary-container text-on-primary font-semibold rounded-lg px-space-md py-space-sm transition-colors whitespace-nowrap" data-path="careers-vacancies" href="../bank_careers_vacancy_portal/code.html">Careers &amp; Vacancies</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container px-space-md py-space-sm rounded transition-colors whitespace-nowrap" data-path="applicant-workbench" href="../hr_officer_applicant_review_workbench/code.html">Applicant Workbench</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container px-space-md py-space-sm rounded transition-colors whitespace-nowrap" data-path="application-eligibility" href="../application_eligibility_verification_engine/code.html">Application &amp; Eligibility</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container px-space-md py-space-sm rounded transition-colors whitespace-nowrap" data-path="admit-cards-hall-tickets" href="../official_examination_admit_card_hall_ticket/code.html">Admit Cards &amp; Hall Tickets</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container px-space-md py-space-sm rounded transition-colors whitespace-nowrap" data-path="results-merit-lists" href="../official_examination_admit_card_hall_ticket/code.html#results">Results &amp; Merit Lists</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container px-space-md py-space-sm rounded transition-colors whitespace-nowrap" data-path="audit-compliance" href="../administrative_audit_system_logs/code.html">Audit &amp; Compliance</a></nav></div></div></header><main class="w-full pt-36 bg-surface min-h-[calc(100vh-280px)]"><div class="max-w-7xl mx-auto px-margin py-space-lg"><div class="flex flex-col w-full">
+<!-- Institutional Announcement Banner / Live Ticker -->
+<div class="mb-space-lg bg-surface-container-high rounded-lg p-space-sm sm:p-space-md shadow-sm flex flex-col md:flex-row items-start md:items-center justify-between gap-space-sm text-on-surface">
+<div class="flex items-center gap-space-sm min-w-0">
+<span class="inline-flex items-center justify-center p-1.5 bg-error text-on-error rounded-full shrink-0 animate-pulse">
+<span class="material-symbols-outlined text-[18px]">campaign</span>
+</span>
+<div class="min-w-0">
+<div class="flex items-center gap-2">
+<span class="bg-primary text-on-primary font-label-sm text-label-sm uppercase tracking-wider px-1.5 py-0.5 rounded">Statutory Notice</span>
+<span class="font-label-md text-label-md font-bold text-primary">Active Recruitment Cycle 2025-26</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant truncate max-w-3xl">
+          Applications closing shortly for Probationary Officers (Scale I) &amp; Specialist Officers. Ensure educational documents, EWS/OBC certs, and identity proofs are validated prior to cutoff.
+        </p>
+</div>
+</div>
+<div class="flex items-center gap-space-sm shrink-0 self-end md:self-auto">
+<span class="font-label-sm text-label-sm text-error font-bold flex items-center gap-1 bg-error-container text-on-error-container px-2 py-1 rounded">
+<span class="material-symbols-outlined text-[14px]">timer</span> Cutoff Window Active
+      </span>
+<a class="font-label-sm text-label-sm text-primary hover:text-secondary underline decoration-1" href="#circulars-desk">
+        Circular № NBRB/REC/25/08
+      </a>
+</div>
+</div>
+<!-- Key Metrics & Cadre Intake Overview -->
+<section class="mb-space-xl">
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Metric 1 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm relative overflow-hidden flex flex-col justify-between group hover:shadow-md transition-shadow">
+<div class="flex items-start justify-between">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant block mb-1">Affiliated Banks</span>
+<div class="font-headline-xl text-headline-xl text-primary font-tabular-data leading-none">14</div>
+</div>
+<div class="p-3 bg-surface-container text-secondary rounded-lg">
+<span class="material-symbols-outlined text-[24px]">account_balance</span>
+</div>
+</div>
+<div class="mt-space-md pt-space-xs flex items-center justify-between text-on-surface-variant font-body-sm text-body-sm">
+<span>Scheduled Commercial Banks</span>
+<span class="font-label-sm text-label-sm font-semibold text-secondary">Govt. Mandated</span>
+</div>
+<div class="absolute left-0 top-0 bottom-0 w-1 bg-primary"></div>
+</div>
+<!-- Metric 2 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm relative overflow-hidden flex flex-col justify-between group hover:shadow-md transition-shadow">
+<div class="flex items-start justify-between">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant block mb-1">Available Vacancies</span>
+<div class="font-headline-xl text-headline-xl text-primary font-tabular-data leading-none">4,280</div>
+</div>
+<div class="p-3 bg-surface-container text-primary rounded-lg">
+<span class="material-symbols-outlined text-[24px]">group_add</span>
+</div>
+</div>
+<div class="mt-space-md pt-space-xs flex items-center justify-between text-on-surface-variant font-body-sm text-body-sm">
+<span>Across Scale I, II &amp; Clerical</span>
+<span class="font-tabular-data text-label-sm text-label-sm bg-surface-container px-1.5 py-0.5 rounded text-on-surface font-semibold">100% Reserved Quota Split</span>
+</div>
+<div class="absolute left-0 top-0 bottom-0 w-1 bg-secondary"></div>
+</div>
+<!-- Metric 3 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm relative overflow-hidden flex flex-col justify-between group hover:shadow-md transition-shadow">
+<div class="flex items-start justify-between">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant block mb-1">Validated Candidates</span>
+<div class="font-headline-xl text-headline-xl text-primary font-tabular-data leading-none">87,420</div>
+</div>
+<div class="p-3 bg-surface-container text-tertiary rounded-lg">
+<span class="material-symbols-outlined text-[24px]">fingerprint</span>
+</div>
+</div>
+<div class="mt-space-md pt-space-xs flex items-center justify-between text-on-surface-variant font-body-sm text-body-sm">
+<span>Aadhaar &amp; DigiLocker Cleared</span>
+<span class="text-tertiary font-label-sm text-label-sm font-semibold flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[14px]">check_circle</span> Verified
+          </span>
+</div>
+<div class="absolute left-0 top-0 bottom-0 w-1 bg-tertiary"></div>
+</div>
+<!-- Metric 4 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm relative overflow-hidden flex flex-col justify-between group hover:shadow-md transition-shadow">
+<div class="flex items-start justify-between">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-error block mb-1">Phase-1 Cutoff Timer</span>
+<div class="font-headline-xl text-headline-xl text-error font-tabular-data leading-none flex items-baseline gap-1">
+              04 <span class="font-body-md text-body-md text-on-surface-variant font-normal">Days Remaining</span>
+</div>
+</div>
+<div class="p-3 bg-error-container text-error rounded-lg">
+<span class="material-symbols-outlined text-[24px]">schedule</span>
+</div>
+</div>
+<div class="mt-space-md pt-space-xs flex items-center justify-between text-on-surface-variant font-body-sm text-body-sm">
+<span>Server Lock: 30-Oct-2025</span>
+<span class="font-tabular-data text-label-sm text-label-sm text-error font-semibold">23:59 IST</span>
+</div>
+<div class="absolute left-0 top-0 bottom-0 w-1 bg-error"></div>
+</div>
+</div>
+</section>
+<!-- Multi-Criteria Institutional Search & Filter Rail -->
+<section class="mb-space-xl bg-surface-container-lowest p-space-lg rounded-xl shadow-sm">
+<div class="flex flex-col lg:flex-row items-start lg:items-center justify-between pb-space-md mb-space-md gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<span class="p-2 bg-primary-container text-on-primary rounded-lg flex items-center justify-center">
+<span class="material-symbols-outlined text-[20px]">manage_search</span>
+</span>
+<div>
+<h2 class="font-headline-sm text-headline-sm text-primary">Candidate Vacancy Discovery Engine</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Filter by official gazette post code, professional cadre, reservation eligibility, and cutoff thresholds</p>
+</div>
+</div>
+<div class="flex items-center gap-space-sm">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Showing <strong class="text-primary font-tabular-data">4</strong> of <strong class="text-primary font-tabular-data">4</strong> Cadres</span>
+<button class="font-label-sm text-label-sm px-3 py-1.5 rounded bg-surface-container hover:bg-surface-container-high text-primary flex items-center gap-1 transition-colors" id="reset-filters" type="button">
+<span class="material-symbols-outlined text-[14px]">refresh</span> Reset Criteria
+        </button>
+</div>
+</div>
+<!-- Filter Form Inputs Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-gutter">
+<!-- Search Input -->
+<div class="flex flex-col gap-1 lg:col-span-1">
+<label class="font-label-sm text-label-sm text-on-surface uppercase tracking-wider" for="filter-keyword">Designation / Cadre</label>
+<div class="relative">
+<span class="material-symbols-outlined absolute left-3 top-2.5 text-on-surface-variant text-[18px]">search</span>
+<input class="w-full pl-9 pr-3 py-2 bg-surface rounded text-on-surface font-body-md text-body-md focus:outline-none focus:bg-surface-container-lowest shadow-sm placeholder:text-outline" id="filter-keyword" placeholder="e.g. Probationary Officer, IT" type="text"/>
+</div>
+</div>
+<!-- Department Filter -->
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-on-surface uppercase tracking-wider" for="filter-dept">Functional Department</label>
+<div class="relative">
+<select class="w-full px-3 py-2 bg-surface rounded text-on-surface font-body-md text-body-md focus:outline-none focus:bg-surface-container-lowest appearance-none shadow-sm cursor-pointer" id="filter-dept">
+<option value="all">All Banking Wings (All)</option>
+<option value="retail">Retail &amp; Corporate Banking</option>
+<option value="it">IT Operations &amp; Cybersecurity</option>
+<option value="treasury">Treasury &amp; Financial Markets</option>
+<option value="clerical">Branch Banking Services</option>
+</select>
+<span class="material-symbols-outlined absolute right-3 top-2.5 pointer-events-none text-on-surface-variant text-[18px]">expand_more</span>
+</div>
+</div>
+<!-- Minimum Qualification -->
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-on-surface uppercase tracking-wider" for="filter-qual">Min. Qualification</label>
+<div class="relative">
+<select class="w-full px-3 py-2 bg-surface rounded text-on-surface font-body-md text-body-md focus:outline-none focus:bg-surface-container-lowest appearance-none shadow-sm cursor-pointer" id="filter-qual">
+<option value="all">Any Approved Degree</option>
+<option value="graduate">Bachelor's Degree (General/Arts/Commerce)</option>
+<option value="tech">B.Tech / B.E (Engineering)</option>
+<option value="postgrad">Post Graduate / CA / CFA</option>
+</select>
+<span class="material-symbols-outlined absolute right-3 top-2.5 pointer-events-none text-on-surface-variant text-[18px]">expand_more</span>
+</div>
+</div>
+<!-- Age Bracket -->
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-on-surface uppercase tracking-wider" for="filter-age">Age Group (General)</label>
+<div class="relative">
+<select class="w-full px-3 py-2 bg-surface rounded text-on-surface font-body-md text-body-md focus:outline-none focus:bg-surface-container-lowest appearance-none shadow-sm cursor-pointer" id="filter-age">
+<option value="all">All Allowed Ages (20-32)</option>
+<option value="20-28">20 to 28 Years</option>
+<option value="21-30">21 to 30 Years</option>
+<option value="23-32">23 to 32 Years</option>
+</select>
+<span class="material-symbols-outlined absolute right-3 top-2.5 pointer-events-none text-on-surface-variant text-[18px]">expand_more</span>
+</div>
+</div>
+<!-- Status -->
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-on-surface uppercase tracking-wider" for="filter-status">Recruitment State</label>
+<div class="relative">
+<select class="w-full px-3 py-2 bg-surface rounded text-on-surface font-body-md text-body-md focus:outline-none focus:bg-surface-container-lowest appearance-none shadow-sm cursor-pointer" id="filter-status">
+<option value="all">All Active Openings</option>
+<option value="closing-soon">Closing Soon (Under 7 Days)</option>
+<option value="active">Active Registration Window</option>
+</select>
+<span class="material-symbols-outlined absolute right-3 top-2.5 pointer-events-none text-on-surface-variant text-[18px]">expand_more</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Live Job Vacancies Grid -->
+<section class="mb-space-xl">
+<div class="flex items-center justify-between mb-space-md">
+<div>
+<h2 class="font-headline-lg text-headline-lg text-primary">Gazetted Open Positions &amp; Officer Cadres</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Statutory notifications sanctioned under National Banking Recruitment Regulation Act</p>
+</div>
+<div class="hidden sm:flex items-center gap-space-xs font-label-sm text-label-sm">
+<span class="inline-flex items-center gap-1 text-on-surface-variant"><span class="w-2.5 h-2.5 rounded-full bg-error"></span> Closing in &lt; 5 Days</span>
+<span class="inline-flex items-center gap-1 text-on-surface-variant ml-3"><span class="w-2.5 h-2.5 rounded-full bg-secondary"></span> Window Open</span>
+</div>
+</div>
+<!-- Vacancy Cards Container -->
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-gutter" id="vacancies-container">
+<!-- Card 1: Probationary Officer (Scale I) -->
+<div class="job-card bg-surface-container-lowest rounded-xl shadow-sm overflow-hidden flex flex-col justify-between hover:shadow-md transition-shadow relative" data-age="21-30" data-dept="retail" data-qual="graduate" data-status="closing-soon">
+<div class="h-1.5 w-full bg-error"></div>
+<div class="p-space-lg flex-1">
+<!-- Top Tag Bar -->
+<div class="flex flex-wrap items-center justify-between gap-space-xs mb-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="font-label-sm text-label-sm font-bold bg-primary text-on-primary px-2 py-0.5 rounded font-tabular-data">
+                PO-2025-01
+              </span>
+<span class="font-label-sm text-label-sm bg-surface-container text-on-surface px-2 py-0.5 rounded">
+                Scale I Officer
+              </span>
+</div>
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm bg-error-container text-on-error-container px-2 py-0.5 rounded font-bold">
+<span class="material-symbols-outlined text-[13px]">alarm</span> 4 Days Left (Cutoff: Oct 30, 2025)
+            </span>
+</div>
+<!-- Title & Vacancy Quantity -->
+<div class="flex items-start justify-between gap-space-sm mb-space-md">
+<div>
+<h3 class="font-headline-md text-headline-md text-primary font-bold">Probationary Officer (Scale I)</h3>
+<p class="font-body-sm text-body-sm text-secondary font-medium">Department: Retail &amp; Corporate Banking</p>
+</div>
+<div class="text-right shrink-0">
+<span class="font-headline-md text-headline-md text-primary font-tabular-data font-bold block leading-tight">2,450</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Vacancies</span>
+</div>
+</div>
+<!-- Structured Meta Spec Matrix -->
+<div class="grid grid-cols-2 sm:grid-cols-3 gap-space-sm p-space-md bg-surface-container-low rounded-lg mb-space-md font-body-sm text-body-sm">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block uppercase tracking-wide">Age Bracket</span>
+<span class="font-tabular-data font-semibold text-on-surface">21 – 30 Years</span>
+</div>
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block uppercase tracking-wide">Min. Degree</span>
+<span class="font-semibold text-on-surface truncate block" title="Bachelor's Degree (Min 60.0%)">Bachelor's (≥ 60%)</span>
+</div>
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block uppercase tracking-wide">Application Fee</span>
+<span class="font-tabular-data font-semibold text-on-surface">₹850 (₹175 SC/ST)</span>
+</div>
+<div class="col-span-2 sm:col-span-3 pt-space-xs">
+<span class="font-label-sm text-label-sm text-on-surface-variant block uppercase tracking-wide">Sanctioned Pay Scale</span>
+<span class="font-tabular-data font-semibold text-primary">₹48,480 - ₹85,920 + DA/HRA Perks</span>
+</div>
+</div>
+<div class="flex items-center gap-space-xs text-on-surface-variant font-body-sm text-body-sm mb-space-md">
+<span class="material-symbols-outlined text-[16px] text-primary">verified_user</span>
+<span>Includes 1,020 Unreserved, 660 OBC, 368 SC, 184 ST, 218 EWS allocation quotas.</span>
+</div>
+</div>
+<!-- Action Tray -->
+<div class="px-space-lg py-space-md bg-surface-container flex flex-wrap items-center justify-between gap-space-sm">
+<a class="font-label-md text-label-md text-secondary hover:text-primary flex items-center gap-1" href="#">
+<span class="material-symbols-outlined text-[18px]">description</span> View Official Notification PDF
+          </a>
+<div class="flex items-center gap-space-xs">
+<button class="px-space-sm py-2 rounded text-primary font-label-md text-label-md bg-surface-container-lowest hover:bg-surface-container-high transition-colors" type="button">
+              Eligibility Matrix
+            </button>
+<a href="../application_eligibility_verification_engine/code.html" class="px-space-md py-2 rounded bg-primary-container text-on-primary font-label-md text-label-md font-semibold hover:bg-primary transition-colors shadow-sm flex items-center gap-1 cursor-pointer">
+              Apply Now <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Card 2: Specialist Officer - IT Operations (Scale II) -->
+<div class="job-card bg-surface-container-lowest rounded-xl shadow-sm overflow-hidden flex flex-col justify-between hover:shadow-md transition-shadow relative" data-age="23-32" data-dept="it" data-qual="tech" data-status="active">
+<div class="h-1.5 w-full bg-secondary"></div>
+<div class="p-space-lg flex-1">
+<!-- Top Tag Bar -->
+<div class="flex flex-wrap items-center justify-between gap-space-xs mb-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="font-label-sm text-label-sm font-bold bg-primary text-on-primary px-2 py-0.5 rounded font-tabular-data">
+                SO-IT-2025-04
+              </span>
+<span class="font-label-sm text-label-sm bg-surface-container text-on-surface px-2 py-0.5 rounded">
+                Scale II Officer
+              </span>
+</div>
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm bg-surface-container text-on-surface px-2 py-0.5 rounded font-bold">
+<span class="material-symbols-outlined text-[13px]">calendar_today</span> Cutoff: Nov 08, 2025
+            </span>
+</div>
+<!-- Title & Vacancy Quantity -->
+<div class="flex items-start justify-between gap-space-sm mb-space-md">
+<div>
+<h3 class="font-headline-md text-headline-md text-primary font-bold">Specialist Officer - IT Operations (Scale II)</h3>
+<p class="font-body-sm text-body-sm text-secondary font-medium">Department: IT Operations &amp; Cybersecurity</p>
+</div>
+<div class="text-right shrink-0">
+<span class="font-headline-md text-headline-md text-primary font-tabular-data font-bold block leading-tight">680</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Vacancies</span>
+</div>
+</div>
+<!-- Structured Meta Spec Matrix -->
+<div class="grid grid-cols-2 sm:grid-cols-3 gap-space-sm p-space-md bg-surface-container-low rounded-lg mb-space-md font-body-sm text-body-sm">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block uppercase tracking-wide">Age Bracket</span>
+<span class="font-tabular-data font-semibold text-on-surface">23 – 32 Years</span>
+</div>
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block uppercase tracking-wide">Min. Degree</span>
+<span class="font-semibold text-on-surface truncate block" title="B.Tech / B.E (Computer Science / IT)">B.Tech / B.E (CS/IT)</span>
+</div>
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block uppercase tracking-wide">Application Fee</span>
+<span class="font-tabular-data font-semibold text-on-surface">₹850 (Exempt PwBD)</span>
+</div>
+<div class="col-span-2 sm:col-span-3 pt-space-xs">
+<span class="font-label-sm text-label-sm text-on-surface-variant block uppercase tracking-wide">Sanctioned Pay Scale</span>
+<span class="font-tabular-data font-semibold text-primary">₹64,820 - ₹93,960 + Special Tech Allowance</span>
+</div>
+</div>
+<div class="flex items-center gap-space-xs text-on-surface-variant font-body-sm text-body-sm mb-space-md">
+<span class="material-symbols-outlined text-[16px] text-primary">terminal</span>
+<span>Mandatory 2 Years IT infrastructure / Cyber forensics post-qualification experience.</span>
+</div>
+</div>
+<!-- Action Tray -->
+<div class="px-space-lg py-space-md bg-surface-container flex flex-wrap items-center justify-between gap-space-sm">
+<a class="font-label-md text-label-md text-secondary hover:text-primary flex items-center gap-1" href="#">
+<span class="material-symbols-outlined text-[18px]">description</span> View Official Notification PDF
+          </a>
+<div class="flex items-center gap-space-xs">
+<button class="px-space-sm py-2 rounded text-primary font-label-md text-label-md bg-surface-container-lowest hover:bg-surface-container-high transition-colors" type="button">
+              Tech Syllabus
+            </button>
+<a href="../application_eligibility_verification_engine/code.html" class="px-space-md py-2 rounded bg-primary-container text-on-primary font-label-md text-label-md font-semibold hover:bg-primary transition-colors shadow-sm flex items-center gap-1 cursor-pointer">
+              Apply Now <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Card 3: Treasury & Risk Analyst (Scale II) -->
+<div class="job-card bg-surface-container-lowest rounded-xl shadow-sm overflow-hidden flex flex-col justify-between hover:shadow-md transition-shadow relative" data-age="21-30" data-dept="treasury" data-qual="postgrad" data-status="active">
+<div class="h-1.5 w-full bg-secondary"></div>
+<div class="p-space-lg flex-1">
+<!-- Top Tag Bar -->
+<div class="flex flex-wrap items-center justify-between gap-space-xs mb-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="font-label-sm text-label-sm font-bold bg-primary text-on-primary px-2 py-0.5 rounded font-tabular-data">
+                TR-2025-02
+              </span>
+<span class="font-label-sm text-label-sm bg-surface-container text-on-surface px-2 py-0.5 rounded">
+                Scale II Specialist
+              </span>
+</div>
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm bg-surface-container text-on-surface px-2 py-0.5 rounded font-bold">
+<span class="material-symbols-outlined text-[13px]">calendar_today</span> Cutoff: Nov 12, 2025
+            </span>
+</div>
+<!-- Title & Vacancy Quantity -->
+<div class="flex items-start justify-between gap-space-sm mb-space-md">
+<div>
+<h3 class="font-headline-md text-headline-md text-primary font-bold">Treasury &amp; Risk Analyst (Scale II)</h3>
+<p class="font-body-sm text-body-sm text-secondary font-medium">Department: Treasury &amp; Financial Markets</p>
+</div>
+<div class="text-right shrink-0">
+<span class="font-headline-md text-headline-md text-primary font-tabular-data font-bold block leading-tight">310</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Vacancies</span>
+</div>
+</div>
+<!-- Structured Meta Spec Matrix -->
+<div class="grid grid-cols-2 sm:grid-cols-3 gap-space-sm p-space-md bg-surface-container-low rounded-lg mb-space-md font-body-sm text-body-sm">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block uppercase tracking-wide">Age Bracket</span>
+<span class="font-tabular-data font-semibold text-on-surface">22 – 30 Years</span>
+</div>
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block uppercase tracking-wide">Min. Degree</span>
+<span class="font-semibold text-on-surface truncate block" title="Master in Finance / CA / CFA">CA / CFA / MBA (Fin)</span>
+</div>
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block uppercase tracking-wide">Application Fee</span>
+<span class="font-tabular-data font-semibold text-on-surface">₹850 Standard</span>
+</div>
+<div class="col-span-2 sm:col-span-3 pt-space-xs">
+<span class="font-label-sm text-label-sm text-on-surface-variant block uppercase tracking-wide">Sanctioned Pay Scale</span>
+<span class="font-tabular-data font-semibold text-primary">₹64,820 - ₹93,960 + FIMMDA Allowances</span>
+</div>
+</div>
+<div class="flex items-center gap-space-xs text-on-surface-variant font-body-sm text-body-sm mb-space-md">
+<span class="material-symbols-outlined text-[16px] text-primary">analytics</span>
+<span>Focus areas: Forex derivative operations, Basel-III liquidity compliance, ALM desks.</span>
+</div>
+</div>
+<!-- Action Tray -->
+<div class="px-space-lg py-space-md bg-surface-container flex flex-wrap items-center justify-between gap-space-sm">
+<a class="font-label-md text-label-md text-secondary hover:text-primary flex items-center gap-1" href="#">
+<span class="material-symbols-outlined text-[18px]">description</span> View Official Notification PDF
+          </a>
+<div class="flex items-center gap-space-xs">
+<button class="px-space-sm py-2 rounded text-primary font-label-md text-label-md bg-surface-container-lowest hover:bg-surface-container-high transition-colors" type="button">
+              Exam Pattern
+            </button>
+<a href="../application_eligibility_verification_engine/code.html" class="px-space-md py-2 rounded bg-primary-container text-on-primary font-label-md text-label-md font-semibold hover:bg-primary transition-colors shadow-sm flex items-center gap-1 cursor-pointer">
+              Apply Now <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Card 4: Customer Service Associate (Clerical Cadre) -->
+<div class="job-card bg-surface-container-lowest rounded-xl shadow-sm overflow-hidden flex flex-col justify-between hover:shadow-md transition-shadow relative" data-age="20-28" data-dept="clerical" data-qual="graduate" data-status="active">
+<div class="h-1.5 w-full bg-secondary"></div>
+<div class="p-space-lg flex-1">
+<!-- Top Tag Bar -->
+<div class="flex flex-wrap items-center justify-between gap-space-xs mb-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="font-label-sm text-label-sm font-bold bg-primary text-on-primary px-2 py-0.5 rounded font-tabular-data">
+                CLK-2025-09
+              </span>
+<span class="font-label-sm text-label-sm bg-surface-container text-on-surface px-2 py-0.5 rounded">
+                Clerical Cadre
+              </span>
+</div>
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm bg-surface-container text-on-surface px-2 py-0.5 rounded font-bold">
+<span class="material-symbols-outlined text-[13px]">calendar_today</span> Cutoff: Nov 18, 2025
+            </span>
+</div>
+<!-- Title & Vacancy Quantity -->
+<div class="flex items-start justify-between gap-space-sm mb-space-md">
+<div>
+<h3 class="font-headline-md text-headline-md text-primary font-bold">Customer Service Associate (Clerical Cadre)</h3>
+<p class="font-body-sm text-body-sm text-secondary font-medium">Department: Branch Banking Services</p>
+</div>
+<div class="text-right shrink-0">
+<span class="font-headline-md text-headline-md text-primary font-tabular-data font-bold block leading-tight">840</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Vacancies</span>
+</div>
+</div>
+<!-- Structured Meta Spec Matrix -->
+<div class="grid grid-cols-2 sm:grid-cols-3 gap-space-sm p-space-md bg-surface-container-low rounded-lg mb-space-md font-body-sm text-body-sm">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block uppercase tracking-wide">Age Bracket</span>
+<span class="font-tabular-data font-semibold text-on-surface">20 – 28 Years</span>
+</div>
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block uppercase tracking-wide">Min. Degree</span>
+<span class="font-semibold text-on-surface truncate block" title="Any Recognized University Graduate">Any Graduate</span>
+</div>
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block uppercase tracking-wide">Application Fee</span>
+<span class="font-tabular-data font-semibold text-on-surface">₹750 (₹125 SC/ST)</span>
+</div>
+<div class="col-span-2 sm:col-span-3 pt-space-xs">
+<span class="font-label-sm text-label-sm text-on-surface-variant block uppercase tracking-wide">Sanctioned Pay Scale</span>
+<span class="font-tabular-data font-semibold text-primary">₹26,730 - ₹54,320 + Sub-staff Allowances</span>
+</div>
+</div>
+<div class="flex items-center gap-space-xs text-on-surface-variant font-body-sm text-body-sm mb-space-md">
+<span class="material-symbols-outlined text-[16px] text-primary">translate</span>
+<span>State-wise domicile allocation with mandatory regional language proficiency verification.</span>
+</div>
+</div>
+<!-- Action Tray -->
+<div class="px-space-lg py-space-md bg-surface-container flex flex-wrap items-center justify-between gap-space-sm">
+<a class="font-label-md text-label-md text-secondary hover:text-primary flex items-center gap-1" href="#">
+<span class="material-symbols-outlined text-[18px]">description</span> View Official Notification PDF
+          </a>
+<div class="flex items-center gap-space-xs">
+<button class="px-space-sm py-2 rounded text-primary font-label-md text-label-md bg-surface-container-lowest hover:bg-surface-container-high transition-colors" type="button">
+              State-wise Split
+            </button>
+<a href="../application_eligibility_verification_engine/code.html" class="px-space-md py-2 rounded bg-primary-container text-on-primary font-label-md text-label-md font-semibold hover:bg-primary transition-colors shadow-sm flex items-center gap-1 cursor-pointer">
+              Apply Now <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Recruitment Process Lifecycle Visualizer -->
+<section class="mb-space-xl bg-surface-container-lowest p-space-lg rounded-xl shadow-sm">
+<div class="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-space-lg pb-space-sm gap-space-sm">
+<div>
+<div class="flex items-center gap-2 mb-1">
+<span class="bg-primary text-on-primary text-[10px] font-bold px-1.5 py-0.5 rounded uppercase">Regulatory Roadmap</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Statutory Examination Standards</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-primary">Recruitment Process Lifecycle &amp; Milestones</h2>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant bg-surface-container px-3 py-1.5 rounded flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-secondary">verified</span> STQC Certified Secure Examination
+      </span>
+</div>
+<!-- Stepper Pipeline -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-gutter relative">
+<!-- Step 1 -->
+<div class="bg-surface-container-low p-space-md rounded-lg flex flex-col justify-between relative group hover:bg-surface-container transition-colors">
+<div>
+<div class="flex items-center justify-between mb-2">
+<span class="w-8 h-8 rounded-full bg-primary text-on-primary font-label-md text-label-md font-bold flex items-center justify-center">01</span>
+<span class="material-symbols-outlined text-secondary text-[20px]">how_to_reg</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-1">Online Registration</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Candidate profile creation, Aadhaar KYC verification, and biometric photograph upload.</p>
+</div>
+<div class="mt-space-md pt-2">
+<span class="font-label-sm text-label-sm text-secondary font-semibold">Active Window</span>
+</div>
+</div>
+<!-- Step 2 -->
+<div class="bg-surface-container-low p-space-md rounded-lg flex flex-col justify-between relative group hover:bg-surface-container transition-colors">
+<div>
+<div class="flex items-center justify-between mb-2">
+<span class="w-8 h-8 rounded-full bg-primary text-on-primary font-label-md text-label-md font-bold flex items-center justify-center">02</span>
+<span class="material-symbols-outlined text-secondary text-[20px]">fact_check</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-1">Eligibility &amp; Fees</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Algorithmic document validation, reservation quota check, and BBPS / UPI fee clearance.</p>
+</div>
+<div class="mt-space-md pt-2">
+<span class="font-label-sm text-label-sm text-secondary font-semibold">Active Window</span>
+</div>
+</div>
+<!-- Step 3 -->
+<div class="bg-surface-container-low p-space-md rounded-lg flex flex-col justify-between relative group hover:bg-surface-container transition-colors">
+<div>
+<div class="flex items-center justify-between mb-2">
+<span class="w-8 h-8 rounded-full bg-surface-container-high text-primary font-label-md text-label-md font-bold flex items-center justify-center">03</span>
+<span class="material-symbols-outlined text-on-surface-variant text-[20px]">badge</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-1">Admit Card Release</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">QR-coded Hall Ticket generation with encrypted test center geo-allocation details.</p>
+</div>
+<div class="mt-space-md pt-2">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Nov 2025</span>
+</div>
+</div>
+<!-- Step 4 -->
+<div class="bg-surface-container-low p-space-md rounded-lg flex flex-col justify-between relative group hover:bg-surface-container transition-colors">
+<div>
+<div class="flex items-center justify-between mb-2">
+<span class="w-8 h-8 rounded-full bg-surface-container-high text-primary font-label-md text-label-md font-bold flex items-center justify-center">04</span>
+<span class="material-symbols-outlined text-on-surface-variant text-[20px]">computer</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-1">Preliminary Exam</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Computer Based Test (CBT) covering Quantitative Aptitude, Reasoning &amp; English proficiency.</p>
+</div>
+<div class="mt-space-md pt-2">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Dec 2025</span>
+</div>
+</div>
+<!-- Step 5 -->
+<div class="bg-surface-container-low p-space-md rounded-lg flex flex-col justify-between relative group hover:bg-surface-container transition-colors">
+<div>
+<div class="flex items-center justify-between mb-2">
+<span class="w-8 h-8 rounded-full bg-surface-container-high text-primary font-label-md text-label-md font-bold flex items-center justify-center">05</span>
+<span class="material-symbols-outlined text-on-surface-variant text-[20px]">psychology_alt</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-1">Main &amp; GD / PI</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Comprehensive descriptive testing followed by statutory banking interview panels.</p>
+</div>
+<div class="mt-space-md pt-2">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Jan - Feb 2026</span>
+</div>
+</div>
+<!-- Step 6 -->
+<div class="bg-surface-container-low p-space-md rounded-lg flex flex-col justify-between relative group hover:bg-surface-container transition-colors">
+<div>
+<div class="flex items-center justify-between mb-2">
+<span class="w-8 h-8 rounded-full bg-surface-container-high text-primary font-label-md text-label-md font-bold flex items-center justify-center">06</span>
+<span class="material-symbols-outlined text-on-surface-variant text-[20px]">assignment_turned_in</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-1">Final Allotment</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Combined merit list publication and provisional cadre allotment across participating banks.</p>
+</div>
+<div class="mt-space-md pt-2">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Mar 2026</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Editorial Section: Participating Banks & Regulatory Assurance -->
+<section class="mb-space-xl grid grid-cols-1 lg:grid-cols-3 gap-gutter">
+<!-- Visual Feature & Inspection -->
+<div class="lg:col-span-2 bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col md:flex-row gap-space-lg items-center">
+<div class="w-full md:w-1/2">
+<img class="w-full h-64 object-cover rounded-lg shadow-sm" data-alt="Senior banking compliance officers in formal business attire reviewing recruitment examination files and biometric security logs inside an institutional government banking board room with architectural marble columns and warm ambient sunlight" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCU4qKZfhKIhLLcyh0B4IKQX4UZvCqlQZ-miRNoOX4INZFkUN_pXSHZ7FFlxfeefklFUR-PdKutzh_fD10Z_Ejg9RtD5F6tdTPjaaKQldoxNSWdjBJguTmWJowOM1euiTXICg_cplonISbmCynwwzwkRoBVC0zJbqK-X-tVku034SNrTbYPvIQMgRKa2H9zqtK2EsLVqKqRAJBhbnWdR8aWByTcUJ-WeWV6Qb_NWZs"/>
+</div>
+<div class="w-full md:w-1/2 flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-2 mb-2">
+<span class="material-symbols-outlined text-primary text-[20px]">gavel</span>
+<span class="font-label-sm text-label-sm uppercase font-bold tracking-widest text-primary">Statutory Integrity Protocol</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mb-2">Zero Discrepancy Governance &amp; Normalization</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md">
+            All test items and equi-percentile equi-variance normalization conform strictly to Indian Statutory Recruitment Standards. Candidate evaluation is governed under closed cryptographic audits.
+          </p>
+</div>
+<div class="flex items-center gap-space-sm pt-space-xs font-body-sm text-body-sm text-on-surface font-medium">
+<span class="inline-flex items-center gap-1 text-secondary">
+<span class="material-symbols-outlined text-[16px]">security</span> AI-Proctored Biometrics
+          </span>
+<span class="inline-flex items-center gap-1 text-secondary">
+<span class="material-symbols-outlined text-[16px]">rule</span> Equi-Percentile Norm
+          </span>
+</div>
+</div>
+</div>
+<!-- Live Participating Banks Roster Summary -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-sm pb-space-xs">
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold">Cadre Banks Roster</h3>
+<span class="font-label-sm text-label-sm bg-primary-container text-on-primary px-2 py-0.5 rounded">14 Banks</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+          Provisional allotment will be distributed according to candidate preference order and finalized category cutoffs.
+        </p>
+<ul class="space-y-space-xs font-body-sm text-body-sm text-on-surface">
+<li class="flex items-center justify-between p-2 bg-surface-container-low rounded">
+<span class="font-medium">State Bank of India</span>
+<span class="font-tabular-data text-secondary font-semibold">1,250 Vacancies</span>
+</li>
+<li class="flex items-center justify-between p-2 bg-surface-container-low rounded">
+<span class="font-medium">Punjab National Bank</span>
+<span class="font-tabular-data text-secondary font-semibold">780 Vacancies</span>
+</li>
+<li class="flex items-center justify-between p-2 bg-surface-container-low rounded">
+<span class="font-medium">Bank of Baroda</span>
+<span class="font-tabular-data text-secondary font-semibold">620 Vacancies</span>
+</li>
+<li class="flex items-center justify-between p-2 bg-surface-container-low rounded">
+<span class="font-medium">Canara &amp; Union Bank</span>
+<span class="font-tabular-data text-secondary font-semibold">950 Vacancies</span>
+</li>
+</ul>
+</div>
+<div class="pt-space-md mt-space-sm flex items-center justify-between">
+<a class="font-label-sm text-label-sm text-secondary hover:text-primary underline" href="#">Download Bank-wise Roster Matrix</a>
+<span class="material-symbols-outlined text-on-surface-variant text-[18px]">open_in_new</span>
+</div>
+</div>
+</section>
+<!-- Important Announcements & Official Circulars Table -->
+<section class="mb-space-xl bg-surface-container-lowest p-space-lg rounded-xl shadow-sm" id="circulars-desk">
+<div class="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-space-md gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<span class="p-2 bg-surface-container text-primary rounded-lg">
+<span class="material-symbols-outlined text-[22px]">policy</span>
+</span>
+<div>
+<h2 class="font-headline-lg text-headline-lg text-primary">Official Circulars &amp; Statutory Gazettes</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Authenticated gazette addendums and candidate advisories issued by the Governing Council</p>
+</div>
+</div>
+<a class="font-label-md text-label-md text-secondary hover:text-primary flex items-center gap-1" href="#">
+        Archived Notifications <span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</a>
+</div>
+<!-- Tabular Records matching announcements schema -->
+<div class="overflow-x-auto">
+<table class="w-full text-left font-body-sm text-body-sm">
+<thead>
+<tr class="bg-surface-container text-primary font-label-sm text-label-sm uppercase tracking-wider">
+<th class="py-3 px-4">Notification Ref №</th>
+<th class="py-3 px-4">Subject &amp; Statutory Ordinance Title</th>
+<th class="py-3 px-4">Issuance Date</th>
+<th class="py-3 px-4">Target Cadre</th>
+<th class="py-3 px-4">Status / Action</th>
+</tr>
+</thead>
+<tbody class="text-on-surface divide-y divide-surface-container">
+<!-- Row 1 -->
+<tr class="hover:bg-surface-container-low transition-colors">
+<td class="py-3.5 px-4 font-tabular-data font-semibold text-primary">NBRB/CORR/2025/11</td>
+<td class="py-3.5 px-4">
+<span class="font-semibold block text-on-surface">Corrigendum on Scribe Guidelines for PwBD Candidates</span>
+<span class="text-on-surface-variant font-body-sm text-body-sm">Revised Appendix IV compensatory time allocations under Central Disabilities Act.</span>
+</td>
+<td class="py-3.5 px-4 font-tabular-data text-on-surface-variant">24-Oct-2025</td>
+<td class="py-3.5 px-4">
+<span class="bg-surface-container px-2 py-0.5 rounded font-label-sm text-label-sm">All Cadres</span>
+</td>
+<td class="py-3.5 px-4">
+<a class="inline-flex items-center gap-1 text-secondary hover:text-primary font-label-md text-label-md font-semibold" href="#">
+<span class="material-symbols-outlined text-[16px]">download</span> PDF (340 KB)
+              </a>
+</td>
+</tr>
+<!-- Row 2 -->
+<tr class="hover:bg-surface-container-low transition-colors">
+<td class="py-3.5 px-4 font-tabular-data font-semibold text-primary">NBRB/NOTIF/2025/08</td>
+<td class="py-3.5 px-4">
+<span class="font-semibold block text-on-surface">Detailed Syllabus &amp; Weightage Matrix for IT Specialist Officers (Scale II)</span>
+<span class="text-on-surface-variant font-body-sm text-body-sm">Cloud Infrastructure, Core Banking Network Security, and Database Architectures breakdown.</span>
+</td>
+<td class="py-3.5 px-4 font-tabular-data text-on-surface-variant">20-Oct-2025</td>
+<td class="py-3.5 px-4">
+<span class="bg-surface-container px-2 py-0.5 rounded font-label-sm text-label-sm">SO-IT Cadre</span>
+</td>
+<td class="py-3.5 px-4">
+<a class="inline-flex items-center gap-1 text-secondary hover:text-primary font-label-md text-label-md font-semibold" href="#">
+<span class="material-symbols-outlined text-[16px]">download</span> PDF (1.2 MB)
+              </a>
+</td>
+</tr>
+<!-- Row 3 -->
+<tr class="hover:bg-surface-container-low transition-colors">
+<td class="py-3.5 px-4 font-tabular-data font-semibold text-primary">NBRB/STAT/2025/03</td>
+<td class="py-3.5 px-4">
+<span class="font-semibold block text-on-surface">Affirmative Action &amp; EWS Certificate Issuance Validity Cutoff Standard</span>
+<span class="text-on-surface-variant font-body-sm text-body-sm">Income &amp; Asset certificates issued between 01-Apr-2024 and 31-Mar-2025 deemed mandatory.</span>
+</td>
+<td class="py-3.5 px-4 font-tabular-data text-on-surface-variant">15-Oct-2025</td>
+<td class="py-3.5 px-4">
+<span class="bg-surface-container px-2 py-0.5 rounded font-label-sm text-label-sm">PO &amp; Clerical</span>
+</td>
+<td class="py-3.5 px-4">
+<a class="inline-flex items-center gap-1 text-secondary hover:text-primary font-label-md text-label-md font-semibold" href="#">
+<span class="material-symbols-outlined text-[16px]">download</span> PDF (520 KB)
+              </a>
+</td>
+</tr>
+<!-- Row 4 -->
+<tr class="hover:bg-surface-container-low transition-colors">
+<td class="py-3.5 px-4 font-tabular-data font-semibold text-primary">NBRB/CENT/2025/01</td>
+<td class="py-3.5 px-4">
+<span class="font-semibold block text-on-surface">List of Approved Online CBT Examination Centers across 247 Cities</span>
+<span class="text-on-surface-variant font-body-sm text-body-sm">Biometric frisking instructions, prohibited electronic items, and reporting protocol.</span>
+</td>
+<td class="py-3.5 px-4 font-tabular-data text-on-surface-variant">10-Oct-2025</td>
+<td class="py-3.5 px-4">
+<span class="bg-surface-container px-2 py-0.5 rounded font-label-sm text-label-sm">Nationwide</span>
+</td>
+<td class="py-3.5 px-4">
+<a class="inline-flex items-center gap-1 text-secondary hover:text-primary font-label-md text-label-md font-semibold" href="#">
+<span class="material-symbols-outlined text-[16px]">download</span> PDF (2.8 MB)
+              </a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<!-- Interactive Client-side Script for Filtering & Micro-interactions -->
+<script>
+    (function () {
+      const keywordInput = document.getElementById('filter-keyword');
+      const deptSelect = document.getElementById('filter-dept');
+      const qualSelect = document.getElementById('filter-qual');
+      const ageSelect = document.getElementById('filter-age');
+      const statusSelect = document.getElementById('filter-status');
+      const resetBtn = document.getElementById('reset-filters');
+      const jobCards = document.querySelectorAll('.job-card');
+
+      function filterJobs() {
+        const keyword = (keywordInput.value || '').toLowerCase().trim();
+        const selectedDept = deptSelect.value;
+        const selectedQual = qualSelect.value;
+        const selectedAge = ageSelect.value;
+        const selectedStatus = statusSelect.value;
+
+        jobCards.forEach(card => {
+          const cardText = card.textContent.toLowerCase();
+          const dept = card.getAttribute('data-dept');
+          const qual = card.getAttribute('data-qual');
+          const age = card.getAttribute('data-age');
+          const status = card.getAttribute('data-status');
+
+          let matchesKeyword = !keyword || cardText.includes(keyword);
+          let matchesDept = selectedDept === 'all' || dept === selectedDept;
+          let matchesQual = selectedQual === 'all' || qual === selectedQual;
+          let matchesAge = selectedAge === 'all' || age === selectedAge;
+          let matchesStatus = selectedStatus === 'all' || status === selectedStatus;
+
+          if (matchesKeyword && matchesDept && matchesQual && matchesAge && matchesStatus) {
+            card.classList.remove('hidden');
+          } else {
+            card.classList.add('hidden');
+          }
+        });
+      }
+
+      if (keywordInput) keywordInput.addEventListener('input', filterJobs);
+      if (deptSelect) deptSelect.addEventListener('change', filterJobs);
+      if (qualSelect) qualSelect.addEventListener('change', filterJobs);
+      if (ageSelect) ageSelect.addEventListener('change', filterJobs);
+      if (statusSelect) statusSelect.addEventListener('change', filterJobs);
+
+      if (resetBtn) {
+        resetBtn.addEventListener('click', function () {
+          if (keywordInput) keywordInput.value = '';
+          if (deptSelect) deptSelect.value = 'all';
+          if (qualSelect) qualSelect.value = 'all';
+          if (ageSelect) ageSelect.value = 'all';
+          if (statusSelect) statusSelect.value = 'all';
+          filterJobs();
+        });
+      }
+    })();
+  </script>
+</div></div></main><footer class="w-full bg-surface-container-low text-on-surface-variant mt-auto"><div class="max-w-7xl mx-auto px-margin py-space-xl"><div class="grid grid-cols-1 md:grid-cols-4 gap-space-xl mb-space-xl"><div class="md:col-span-2"><div class="flex items-center gap-space-sm mb-space-sm"><span class="material-symbols-outlined text-primary text-[24px]">account_balance</span><span class="font-headline-sm text-headline-sm text-primary font-bold">National Banking Recruitment Board</span></div><p class="font-body-md text-body-md text-on-surface-variant mb-space-md max-w-lg">Autonomous central assessment authority coordinating recruitment examinations, reservation quotas, and probationary officer selection across public and scheduled commercial banks.</p><div class="flex items-center gap-space-sm text-on-surface font-label-sm text-label-sm"><span class="bg-surface-container px-space-sm py-1 rounded font-mono">STQC Audited</span><span class="bg-surface-container px-space-sm py-1 rounded font-mono">CERT-In Compliant</span><span class="bg-surface-container px-space-sm py-1 rounded font-mono">WCAG 2.1 AA</span></div></div><div><div class="font-label-md text-label-md uppercase tracking-wider text-on-surface font-bold mb-space-md">Guidelines &amp; Statutes</div><ul class="space-y-space-xs font-body-sm text-body-sm"><li><a class="hover:text-primary transition-colors" href="#">Recruitment Rules &amp; Ordinances</a></li><li><a class="hover:text-primary transition-colors" href="#">EWS &amp; Affirmative Action Quotas</a></li><li><a class="hover:text-primary transition-colors" href="#">Scribe Accommodation Formats</a></li><li><a class="hover:text-primary transition-colors" href="#">Grievance Redressal Protocol</a></li><li><a class="hover:text-primary transition-colors" href="#">Right to Information (RTI) Cell</a></li></ul></div><div><div class="font-label-md text-label-md uppercase tracking-wider text-on-surface font-bold mb-space-md">Official Helpline Desk</div><p class="font-body-sm text-body-sm mb-space-xs">Toll-Free Candidate Helpdesk:</p><div class="font-headline-sm text-headline-sm text-secondary font-bold font-tabular-data mb-space-xs">1800-419-0102</div><p class="font-body-sm text-body-sm mb-space-xs">Working Hours: 09:30 - 18:00 (Mon-Sat)</p><p class="font-body-sm text-body-sm text-outline">Email: candidate.support@nbrb.gov.in</p></div></div><div class="pt-space-lg flex flex-col md:flex-row items-center justify-between font-body-sm text-body-sm text-on-surface-variant gap-space-md"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[16px] text-secondary">shield</span><span>Statutory Electronic Record. All records cryptographically verified under Central Banking Recruitment Standards.</span></div><div>© 2025 National Banking Recruitment Board. All Rights Reserved.</div></div></div></footer></body></html>
